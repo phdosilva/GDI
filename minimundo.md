@@ -1,17 +1,19 @@
-# Minimundo
+# Lindedin
 
-Em um sistema voltado para oferta e procura de vagas de emprego, temos que um candidato pode se cadastrar com nome, e-mail, cpf, pretensão salário, cargo desejado e currículo.
+- [ ] Em um sistema voltado para oferta e procura de vagas de emprego, um profissional pode se cadastrar com nome, e-mail, cpf, número para contato e endereço.
+- [ ] O endereço deve ser composto de Rua, número da casa, complemento, bairro, cidade e estado.
+- [x] Um profissional pode se conectar a outros profissionais para mantê-lo como referência de contato.
+- [x] O profissional pode estar tanto procurando quanto ofertando emprego. No primeiro caso ele é um candidato à uma vaga de emprego, no segundo é um empregador.
+- [x] Um empregador administra vagas de emprego ofertadas pela empresa em que trabalha, podendo visualizar quem são os candidatos àquela vaga.
+- [x] Um candidato será apresentado à empregadores e à vagas de emprego, podendo se canditar à quantas vagas desejar.
+- [ ] Um candidato declara seu interesse salarial e sua disponibilidade e cargo almejado, assim, empregadores podem buscar por eles mesmo que não tenham aplicado para uma vaga administrada pelos empregadores.
+- [ ] Uma empresa tem nome, descrição, endereço e funcionários empregadores.
+- [ ] O endereço da empresa deve ser composto de Rua, número, bairro, cidade e estado.
+- [ ] Caso o empregador seja demitido ou mude de empresa, as vagas criadas por ele serão administradas por outro empregador.
+- [ ] Um profissional que trabalha na empresa agrega à seu perfil a data de entrada, a data de saída, o cargo e a descrição do cargo dentro da empresa
+- [x] Uma empresa pode publicar em sua página conquistas e prêmios para servir de referência para profissionais que pensem em aplicar para vagas de emprego disponíveis
+- [ ] Uma conquista contém uma imagem, um título, uma descrição e uma data.
 
-Um candidato pode se candidatar à 1 ou mais vagas.
-
-Um candidato pode ser aprovado em uma ou mais vagas. 
-
-Cada vaga será registrada com nome, nome da empresa e salário ofertado.
-
-Uma vaga obrigatoriamente pertence à uma empresa.
-
-Uma vaga pode ter vários ou nenhum candidato.
-
-Uma empresa será registrada apenas com nome e setor.
-
-Uma empresa poderá ter várias ou nenhuma vaga.
+### Labels
+- [ ] _Not implemented_
+- [x] _Implemented_
