@@ -5,7 +5,7 @@ Repositório do projeto de design de banco de dados relacional da cadeira de GDI
 ## Equipe
 
 * Pedro Henrique de Oliveira Silva - phos@cin.ufpe.br
-* 
+* Hiago Rafael Nunes e Silva - hrns@cin.ufpe.br
 
 ## Minimundo
 [Minimundo descrito aqui.](minimundo.md)
