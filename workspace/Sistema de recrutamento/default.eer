@@ -45,12 +45,12 @@
     <nodes xmi:type="eer:Attribute" xmi:id="_aDmCoNhDEeu4FfqF6o-fvQ" name="descrição" AttributeLinkTarget="_gWu0oNhDEeu4FfqF6o-fvQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_k4lPMNhDEeu4FfqF6o-fvQ" name="titulo" AttributeLinkTarget="_oqCHkNhDEeu4FfqF6o-fvQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_ln060NhDEeu4FfqF6o-fvQ" name="descrição" AttributeLinkTarget="_o0iHYNhDEeu4FfqF6o-fvQ"/>
-    <nodes xmi:type="eer:Attribute" xmi:id="_lwSTQNhDEeu4FfqF6o-fvQ" name="data" type="DISCRIMINATOR" AttributeLinkTarget="_o_UbENhDEeu4FfqF6o-fvQ"/>
+    <nodes xmi:type="eer:Attribute" xmi:id="_lwSTQNhDEeu4FfqF6o-fvQ" name="data" isSequence="true" AttributeLinkTarget="_o_UbENhDEeu4FfqF6o-fvQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_l57-gNhDEeu4FfqF6o-fvQ" name="imagem" AttributeLinkTarget="_pI7qENhDEeu4FfqF6o-fvQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_slf3kNhDEeu4FfqF6o-fvQ" name="numero de registro" type="DISCRIMINATOR" AttributeLinkTarget="_uJVB0NhDEeu4FfqF6o-fvQ"/>
     <links xmi:type="eer:InheritanceGL" xmi:id="_ph7oUM_REeuIxqa0u0NSFw" completeness="TOTAL" source="_erxXEM_REeuIxqa0u0NSFw" target="_kxWOMM_REeuIxqa0u0NSFw"/>
-    <links xmi:type="eer:RelationshipLink" xmi:id="_ywY78M_REeuIxqa0u0NSFw" source="_erxXEM_REeuIxqa0u0NSFw" target="_xAMJoM_REeuIxqa0u0NSFw" cardinality="MANY"/>
-    <links xmi:type="eer:RelationshipLink" xmi:id="_y7D64M_REeuIxqa0u0NSFw" source="_erxXEM_REeuIxqa0u0NSFw" target="_xAMJoM_REeuIxqa0u0NSFw" cardinality="MANY"/>
+    <links xmi:type="eer:RelationshipLink" xmi:id="_ywY78M_REeuIxqa0u0NSFw" source="_erxXEM_REeuIxqa0u0NSFw" target="_xAMJoM_REeuIxqa0u0NSFw" cardinality="MANY" role="quer ser amigo"/>
+    <links xmi:type="eer:RelationshipLink" xmi:id="_y7D64M_REeuIxqa0u0NSFw" source="_erxXEM_REeuIxqa0u0NSFw" target="_xAMJoM_REeuIxqa0u0NSFw" cardinality="MANY" role="aceita ser amigo"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_SGXgUM_SEeuIxqa0u0NSFw" source="_erxXEM_REeuIxqa0u0NSFw" target="_QVKBYM_SEeuIxqa0u0NSFw" cardinality="MANY"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_zKxVYM_SEeuIxqa0u0NSFw" source="_fTNKgM_REeuIxqa0u0NSFw" target="_xUHVwM_SEeuIxqa0u0NSFw" cardinality="MANY"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_zV0u0M_SEeuIxqa0u0NSFw" source="_fc88YM_REeuIxqa0u0NSFw" target="_xUHVwM_SEeuIxqa0u0NSFw" cardinality="MANY"/>
@@ -62,7 +62,7 @@
     <links xmi:type="eer:InheritanceSL" xmi:id="_ghXp8M_VEeuIxqa0u0NSFw" source="_fTNKgM_REeuIxqa0u0NSFw" target="_kxWOMM_REeuIxqa0u0NSFw"/>
     <links xmi:type="eer:InheritanceSL" xmi:id="_grw8EM_VEeuIxqa0u0NSFw" source="_fOXGwM_REeuIxqa0u0NSFw" target="_kxWOMM_REeuIxqa0u0NSFw"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_Mdjg4M_WEeuIxqa0u0NSFw" source="_fc88YM_REeuIxqa0u0NSFw" target="_LVWisM_WEeuIxqa0u0NSFw"/>
-    <links xmi:type="eer:RelationshipLink" xmi:id="_Mo0VsM_WEeuIxqa0u0NSFw" source="_Izpa8M_WEeuIxqa0u0NSFw" target="_LVWisM_WEeuIxqa0u0NSFw" participation="TOTAL" isIdentifier="true"/>
+    <links xmi:type="eer:RelationshipLink" xmi:id="_Mo0VsM_WEeuIxqa0u0NSFw" source="_Izpa8M_WEeuIxqa0u0NSFw" target="_LVWisM_WEeuIxqa0u0NSFw" participation="TOTAL" cardinality="MANY" isIdentifier="true"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_MYxG0NhCEeu4FfqF6o-fvQ" source="_erxXEM_REeuIxqa0u0NSFw" target="_7qyGkNhBEeu4FfqF6o-fvQ"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_MuoCENhCEeu4FfqF6o-fvQ" source="_erxXEM_REeuIxqa0u0NSFw" target="_7HvD4NhBEeu4FfqF6o-fvQ"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_M-RAkNhCEeu4FfqF6o-fvQ" source="_erxXEM_REeuIxqa0u0NSFw" target="_6eM-sNhBEeu4FfqF6o-fvQ"/>
@@ -557,7 +557,7 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_IzseQc_WEeuIxqa0u0NSFw"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_IzseQs_WEeuIxqa0u0NSFw" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IzseQ8_WEeuIxqa0u0NSFw" points="[-30, 0, 154, 321]$[-174, 0, 10, 321]$[-174, -305, 10, 16]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IzseQ8_WEeuIxqa0u0NSFw" points="[-30, 0, 154, 321]$[-174, 0, 10, 321]$[-184, -302, 0, 19]"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_Mdjg4c_WEeuIxqa0u0NSFw" type="4006" element="_Mdjg4M_WEeuIxqa0u0NSFw" source="_fc88Yc_REeuIxqa0u0NSFw" target="_LVWisc_WEeuIxqa0u0NSFw">
       <children xmi:type="notation:DecorationNode" xmi:id="_Mdjg5c_WEeuIxqa0u0NSFw" type="6006">
