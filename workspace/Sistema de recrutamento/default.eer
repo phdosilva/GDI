@@ -48,7 +48,7 @@
     <nodes xmi:type="eer:Attribute" xmi:id="_lwSTQNhDEeu4FfqF6o-fvQ" name="data" isSequence="true" AttributeLinkTarget="_o_UbENhDEeu4FfqF6o-fvQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_l57-gNhDEeu4FfqF6o-fvQ" name="imagem" AttributeLinkTarget="_pI7qENhDEeu4FfqF6o-fvQ"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_slf3kNhDEeu4FfqF6o-fvQ" name="numero de registro" type="DISCRIMINATOR" AttributeLinkTarget="_uJVB0NhDEeu4FfqF6o-fvQ"/>
-    <links xmi:type="eer:InheritanceGL" xmi:id="_ph7oUM_REeuIxqa0u0NSFw" completeness="TOTAL" source="_erxXEM_REeuIxqa0u0NSFw" target="_kxWOMM_REeuIxqa0u0NSFw"/>
+    <links xmi:type="eer:InheritanceGL" xmi:id="_ph7oUM_REeuIxqa0u0NSFw" source="_erxXEM_REeuIxqa0u0NSFw" target="_kxWOMM_REeuIxqa0u0NSFw"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_ywY78M_REeuIxqa0u0NSFw" source="_erxXEM_REeuIxqa0u0NSFw" target="_xAMJoM_REeuIxqa0u0NSFw" cardinality="MANY" role="quer ser amigo"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_y7D64M_REeuIxqa0u0NSFw" source="_erxXEM_REeuIxqa0u0NSFw" target="_xAMJoM_REeuIxqa0u0NSFw" cardinality="MANY" role="aceita ser amigo"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_SGXgUM_SEeuIxqa0u0NSFw" source="_erxXEM_REeuIxqa0u0NSFw" target="_QVKBYM_SEeuIxqa0u0NSFw" cardinality="MANY"/>
