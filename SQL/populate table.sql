@@ -29,9 +29,9 @@ INSERT INTO Candidato
 VALUES ('3333', 1000.50, 1, 'Desenvolvedor');
 
 INSERT INTO Empresa
-VALUES ('0000', 'Empresa 1', 'Serviços de desenvolvimento', 'rua da empresa 1', 134, 'bairro da empresa 1', 'complemento da empresa 1', 'cidade da empresa 1', 'estado da empresa 1', '2222')
+VALUES ('0000', 'Empresa 1', 'Serviços de desenvolvimento', 'rua da empresa 1', 134, 'bairro da empresa 1', 'complemento da empresa 1', 'cidade da empresa 1', 'estado da empresa 1', '2222');
 INSERT INTO Empresa
-VALUES ('1111', 'Empresa 2', 'Serviços de desenvolvimento', 'rua da empresa 2', 134, 'bairro da empresa 2', 'complemento da empresa 2', 'cidade da empresa 2', 'estado da empresa 2', '2222')
+VALUES ('1111', 'Empresa 2', 'Serviços de desenvolvimento', 'rua da empresa 2', 134, 'bairro da empresa 2', 'complemento da empresa 2', 'cidade da empresa 2', 'estado da empresa 2', '2222');
 
 INSERT INTO Conquista
 VALUES ('0000',  '11', 'https://linkdaimagem.com/imagem', 'Bom ambiente de trabalho', 'Aqui é um bom ambiente para se trabalhar', '1000-01-01');
