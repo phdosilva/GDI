@@ -27,7 +27,7 @@ CREATE TABLE Empregador (
 
 CREATE TABLE Candidato (
     cpf varchar(11),
-    interesse_salaciral number(15,2),
+    interesse_salarial number(15,2),
     disponibilidade_horarios int, -- 0=nenhum, 1=manha, 2=tarde, 3=manha e tarde
     cargo_almejado varchar(255),
     CONSTRAINT PK_Candidato PRIMARY KEY (cpf),
@@ -96,4 +96,3 @@ CREATE TABLE Aplica (
     CONSTRAINT FK_Aplica_Vaga FOREIGN KEY (empregador, empresa) REFERENCES Vaga(empregador, empresa) ON DELETE CASCADE,
     CONSTRAINT FK_Aplica_Candidato FOREIGN KEY (candidato) REFERENCES Candidato ON DELETE CASCADE
     );
-
